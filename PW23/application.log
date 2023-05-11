@@ -1,0 +1,707 @@
+937  [restartedMain] INFO  com.example.pw15.Pw15Application – Starting Pw15Application using Java 17.0.1 with PID 7664 (C:\Users\semey\IdeaProjects\PW23\build\classes\java\main started by semey in C:\Users\semey\IdeaProjects\PW23)
+947  [restartedMain] INFO  com.example.pw15.Pw15Application – No active profile set, falling back to 1 default profile: "default"
+997  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor – Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+998  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor – For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+1673 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1733 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 51 ms. Found 3 JPA repository interfaces.
+1953 [restartedMain] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer – Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.springframework.session.config.annotation.web.http.SpringHttpSessionConfiguration
+2821 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+2831 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+2831 [restartedMain] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+2832 [restartedMain] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/10.1.5]
+2889 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+2890 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 1892 ms
+2969 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+3131 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@159e2ac6
+3133 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+3243 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+3312 [restartedMain] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 6.1.7.Final
+3728 [restartedMain] INFO  SQL dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+4584 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+4594 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+5327 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+5709 [restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain – Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@506c0c1e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1b6f0612, org.springframework.security.web.context.SecurityContextHolderFilter@181db160, org.springframework.security.web.header.HeaderWriterFilter@10ce15e1, org.springframework.security.web.authentication.logout.LogoutFilter@d22814a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7b6a0b5a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@362d0e3b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4b508414, org.springframework.security.web.access.ExceptionTranslationFilter@4471df7b, org.springframework.security.web.access.intercept.AuthorizationFilter@1b4a0049]
+5987 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer – LiveReload server is running on port 35729
+6020 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+6038 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+6050 [restartedMain] INFO  com.example.pw15.Pw15Application – Started Pw15Application in 5.498 seconds (process running for 6.518)
+37175 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+37176 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+37179 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 3 ms
+41853 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Scheduled task
+41856 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – manufactures.txt is deleted
+41857 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – phones.txt is deleted
+41858 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Files deleted
+41868 [scheduling-1] INFO  c.e.p.services.ManufactureService – find all manufactures
+42064 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 194 ms
+42100 [scheduling-1] INFO  c.e.pw15.services.PhoneService – find all phones.txt
+42112 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 12 ms
+42115 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Sheduled Task is ended
+42116 [scheduling-1] INFO  com.example.pw15.Aspect – Method backup was proceeding in 263 ms
+65964 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+65966 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+65976 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+933  [restartedMain] INFO  com.example.pw15.Pw15Application – Starting Pw15Application using Java 17.0.1 with PID 15660 (C:\Users\semey\IdeaProjects\PW23\build\classes\java\main started by semey in C:\Users\semey\IdeaProjects\PW23)
+938  [restartedMain] INFO  com.example.pw15.Pw15Application – No active profile set, falling back to 1 default profile: "default"
+1023 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor – Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+1023 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor – For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+1737 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1806 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 58 ms. Found 3 JPA repository interfaces.
+2156 [restartedMain] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer – Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.springframework.session.config.annotation.web.http.SpringHttpSessionConfiguration
+3159 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+3174 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+3175 [restartedMain] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+3175 [restartedMain] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/10.1.5]
+3257 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+3258 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 2234 ms
+3382 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+3553 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@14dcf468
+3556 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+3707 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+3777 [restartedMain] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 6.1.7.Final
+4232 [restartedMain] INFO  SQL dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+5419 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+5429 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+6170 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+6467 [restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain – Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7c0f92c4, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@ccb5600, org.springframework.security.web.context.SecurityContextHolderFilter@7d252fcf, org.springframework.security.web.header.HeaderWriterFilter@363be7b0, org.springframework.security.web.authentication.logout.LogoutFilter@7530611c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@64e9fa3d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@489404ae, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@712838a1, org.springframework.security.web.access.ExceptionTranslationFilter@398016b1, org.springframework.security.web.access.intercept.AuthorizationFilter@39492fba]
+6743 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer – LiveReload server is running on port 35729
+6772 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+6789 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+6798 [restartedMain] INFO  com.example.pw15.Pw15Application – Started Pw15Application in 6.32 seconds (process running for 7.442)
+13321 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+13321 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+13324 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 1 ms
+26527 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Scheduled task
+26531 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – manufactures.txt is deleted
+26532 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – phones.txt is deleted
+26533 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Files deleted
+26545 [scheduling-1] INFO  c.e.p.services.ManufactureService – find all manufactures
+26721 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 173 ms
+26752 [scheduling-1] INFO  c.e.pw15.services.PhoneService – find all phones.txt
+26765 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 13 ms
+26771 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Sheduled Task is ended
+26771 [scheduling-1] INFO  com.example.pw15.Aspect – Method backup was proceeding in 244 ms
+86520 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Scheduled task
+86522 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – manufactures.txt is deleted
+86524 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – phones.txt is deleted
+86524 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Files deleted
+86532 [scheduling-1] INFO  c.e.p.services.ManufactureService – find all manufactures
+86541 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 9 ms
+86547 [scheduling-1] INFO  c.e.pw15.services.PhoneService – find all phones.txt
+86554 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 7 ms
+86559 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Sheduled Task is ended
+86560 [scheduling-1] INFO  com.example.pw15.Aspect – Method backup was proceeding in 40 ms
+113395 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+113400 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+113416 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+895  [restartedMain] INFO  com.example.pw15.Pw15Application – Starting Pw15Application using Java 17.0.1 with PID 3732 (C:\Users\semey\IdeaProjects\PW23\build\classes\java\main started by semey in C:\Users\semey\IdeaProjects\PW23)
+901  [restartedMain] INFO  com.example.pw15.Pw15Application – No active profile set, falling back to 1 default profile: "default"
+971  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor – Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+971  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor – For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+1615 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1687 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 61 ms. Found 3 JPA repository interfaces.
+1930 [restartedMain] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer – Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.springframework.session.config.annotation.web.http.SpringHttpSessionConfiguration
+2571 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+2579 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+2580 [restartedMain] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+2580 [restartedMain] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/10.1.5]
+2634 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+2635 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 1662 ms
+2700 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+2808 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1d5025cc
+2811 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+2934 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+2984 [restartedMain] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 6.1.7.Final
+3321 [restartedMain] INFO  SQL dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+4081 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+4090 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+4727 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+5042 [restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain – Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@132fb5d2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@318b2e1f, org.springframework.security.web.context.SecurityContextHolderFilter@5854a959, org.springframework.security.web.header.HeaderWriterFilter@566d5b32, org.springframework.security.web.authentication.logout.LogoutFilter@5049d051, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7fbba7b7, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@157255b4, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@62a18bc6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7c0f92c4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@ccb5600, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@37f604d1, org.springframework.security.web.access.ExceptionTranslationFilter@1d1fef99, org.springframework.security.web.access.intercept.AuthorizationFilter@4e3d0716]
+5317 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer – LiveReload server is running on port 35729
+5351 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+5371 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+5383 [restartedMain] INFO  com.example.pw15.Pw15Application – Started Pw15Application in 4.925 seconds (process running for 6.094)
+9580 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+9580 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+9582 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 2 ms
+23026 [http-nio-8080-exec-4] INFO  com.example.pw15.Aspect – Method loadUserByUsername was proceeding in 254 ms
+23026 [http-nio-8080-exec-4] ERROR o.s.s.w.a.UsernamePasswordAuthenticationFilter – An internal error occurred while trying to authenticate the user.
+org.springframework.security.authentication.InternalAuthenticationServiceException: UserDetailsService returned null, which is an interface contract violation
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:96)
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:133)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:182)
+	at org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter.attemptAuthentication(UsernamePasswordAuthenticationFilter.java:85)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:231)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:221)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.session.web.http.SessionRepositoryFilter.doFilterInternal(SessionRepositoryFilter.java:143)
+	at org.springframework.session.web.http.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:82)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+28443 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Scheduled task
+28447 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – manufactures.txt is deleted
+28448 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – phones.txt is deleted
+28448 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Files deleted
+28456 [scheduling-1] INFO  c.e.p.services.ManufactureService – find all manufactures
+28516 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 60 ms
+28548 [scheduling-1] INFO  c.e.pw15.services.PhoneService – find all phones.txt
+28557 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 10 ms
+28561 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Sheduled Task is ended
+28561 [scheduling-1] INFO  com.example.pw15.Aspect – Method backup was proceeding in 118 ms
+33749 [http-nio-8080-exec-8] INFO  com.example.pw15.Aspect – Method loadUserByUsername was proceeding in 9 ms
+33750 [http-nio-8080-exec-8] ERROR o.s.s.w.a.UsernamePasswordAuthenticationFilter – An internal error occurred while trying to authenticate the user.
+org.springframework.security.authentication.InternalAuthenticationServiceException: UserDetailsService returned null, which is an interface contract violation
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:96)
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:133)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:182)
+	at org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter.attemptAuthentication(UsernamePasswordAuthenticationFilter.java:85)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:231)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:221)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.session.web.http.SessionRepositoryFilter.doFilterInternal(SessionRepositoryFilter.java:143)
+	at org.springframework.session.web.http.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:82)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+45973 [http-nio-8080-exec-5] INFO  com.example.pw15.Aspect – Method signUpUser was proceeding in 170 ms
+88439 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Scheduled task
+88444 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – manufactures.txt is deleted
+88451 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – phones.txt is deleted
+88451 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Files deleted
+88458 [scheduling-1] INFO  c.e.p.services.ManufactureService – find all manufactures
+88466 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 8 ms
+88471 [scheduling-1] INFO  c.e.pw15.services.PhoneService – find all phones.txt
+88477 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 6 ms
+88480 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Sheduled Task is ended
+88481 [scheduling-1] INFO  com.example.pw15.Aspect – Method backup was proceeding in 42 ms
+97876 [http-nio-8080-exec-2] INFO  com.example.pw15.Aspect – Method loadUserByUsername was proceeding in 7 ms
+97876 [http-nio-8080-exec-2] ERROR o.s.s.w.a.UsernamePasswordAuthenticationFilter – An internal error occurred while trying to authenticate the user.
+org.springframework.security.authentication.InternalAuthenticationServiceException: UserDetailsService returned null, which is an interface contract violation
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:96)
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:133)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:182)
+	at org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter.attemptAuthentication(UsernamePasswordAuthenticationFilter.java:85)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:231)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:221)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.session.web.http.SessionRepositoryFilter.doFilterInternal(SessionRepositoryFilter.java:143)
+	at org.springframework.session.web.http.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:82)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+101804 [http-nio-8080-exec-6] INFO  com.example.pw15.Aspect – Method loadUserByUsername was proceeding in 5 ms
+113513 [http-nio-8080-exec-1] INFO  c.e.pw15.services.PhoneService – find all phones.txt
+113522 [http-nio-8080-exec-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 9 ms
+119174 [http-nio-8080-exec-2] INFO  c.e.p.services.ManufactureService – find all manufactures
+119182 [http-nio-8080-exec-2] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 8 ms
+148442 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Scheduled task
+148444 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – manufactures.txt is deleted
+148447 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – phones.txt is deleted
+148447 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Files deleted
+148457 [scheduling-1] INFO  c.e.p.services.ManufactureService – find all manufactures
+148466 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 9 ms
+148473 [scheduling-1] INFO  c.e.pw15.services.PhoneService – find all phones.txt
+148478 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 5 ms
+148483 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Sheduled Task is ended
+148484 [scheduling-1] INFO  com.example.pw15.Aspect – Method backup was proceeding in 42 ms
+208451 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Scheduled task
+208453 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – manufactures.txt is deleted
+208455 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – phones.txt is deleted
+208455 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Files deleted
+208463 [scheduling-1] INFO  c.e.p.services.ManufactureService – find all manufactures
+208470 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 7 ms
+208475 [scheduling-1] INFO  c.e.pw15.services.PhoneService – find all phones.txt
+208480 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 5 ms
+208485 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Sheduled Task is ended
+208485 [scheduling-1] INFO  com.example.pw15.Aspect – Method backup was proceeding in 34 ms
+268439 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Scheduled task
+268444 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – manufactures.txt is deleted
+268446 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – phones.txt is deleted
+268447 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Files deleted
+268464 [scheduling-1] INFO  c.e.p.services.ManufactureService – find all manufactures
+268473 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 9 ms
+268479 [scheduling-1] INFO  c.e.pw15.services.PhoneService – find all phones.txt
+268484 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 5 ms
+268488 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Sheduled Task is ended
+268489 [scheduling-1] INFO  com.example.pw15.Aspect – Method backup was proceeding in 50 ms
+328440 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Scheduled task
+328441 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – manufactures.txt is deleted
+328443 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – phones.txt is deleted
+328444 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Files deleted
+328449 [scheduling-1] INFO  c.e.p.services.ManufactureService – find all manufactures
+328456 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 6 ms
+328461 [scheduling-1] INFO  c.e.pw15.services.PhoneService – find all phones.txt
+328467 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 6 ms
+328471 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Sheduled Task is ended
+328472 [scheduling-1] INFO  com.example.pw15.Aspect – Method backup was proceeding in 32 ms
+388446 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Scheduled task
+388447 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – manufactures.txt is deleted
+388449 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – phones.txt is deleted
+388450 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Files deleted
+388462 [scheduling-1] INFO  c.e.p.services.ManufactureService – find all manufactures
+388469 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 7 ms
+388475 [scheduling-1] INFO  c.e.pw15.services.PhoneService – find all phones.txt
+388483 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 8 ms
+388487 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Sheduled Task is ended
+388487 [scheduling-1] INFO  com.example.pw15.Aspect – Method backup was proceeding in 41 ms
+448454 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Scheduled task
+448457 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – manufactures.txt is deleted
+448458 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – phones.txt is deleted
+448458 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Files deleted
+448466 [scheduling-1] INFO  c.e.p.services.ManufactureService – find all manufactures
+448475 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 8 ms
+448482 [scheduling-1] INFO  c.e.pw15.services.PhoneService – find all phones.txt
+448489 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 7 ms
+448494 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Sheduled Task is ended
+448494 [scheduling-1] INFO  com.example.pw15.Aspect – Method backup was proceeding in 41 ms
+508446 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Scheduled task
+508448 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – manufactures.txt is deleted
+508450 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – phones.txt is deleted
+508451 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Files deleted
+508457 [scheduling-1] INFO  c.e.p.services.ManufactureService – find all manufactures
+508464 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 6 ms
+508470 [scheduling-1] INFO  c.e.pw15.services.PhoneService – find all phones.txt
+508475 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 5 ms
+508479 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Sheduled Task is ended
+508479 [scheduling-1] INFO  com.example.pw15.Aspect – Method backup was proceeding in 33 ms
+568448 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Scheduled task
+568450 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – manufactures.txt is deleted
+568451 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – phones.txt is deleted
+568451 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Files deleted
+568456 [scheduling-1] INFO  c.e.p.services.ManufactureService – find all manufactures
+568460 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 4 ms
+568464 [scheduling-1] INFO  c.e.pw15.services.PhoneService – find all phones.txt
+568468 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 4 ms
+568471 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Sheduled Task is ended
+568471 [scheduling-1] INFO  com.example.pw15.Aspect – Method backup was proceeding in 23 ms
+569564 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+569568 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+569577 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+1043 [restartedMain] INFO  com.example.pw15.Pw15Application – Starting Pw15Application using Java 17.0.1 with PID 15244 (C:\Users\semey\IdeaProjects\PW23\build\classes\java\main started by semey in C:\Users\semey\IdeaProjects\PW23)
+1048 [restartedMain] INFO  com.example.pw15.Pw15Application – No active profile set, falling back to 1 default profile: "default"
+1110 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor – Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+1110 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor – For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+1756 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1826 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 59 ms. Found 3 JPA repository interfaces.
+2111 [restartedMain] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer – Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.springframework.session.config.annotation.web.http.SpringHttpSessionConfiguration
+3137 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+3150 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+3151 [restartedMain] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+3151 [restartedMain] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/10.1.5]
+3240 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+3241 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 2129 ms
+3365 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+3492 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@f09c6e6
+3494 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+3650 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+3771 [restartedMain] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 6.1.7.Final
+4373 [restartedMain] INFO  SQL dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+5401 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+5409 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+6051 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+6388 [restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain – Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@282ef42d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@267eb3ee, org.springframework.security.web.context.SecurityContextHolderFilter@679fdbc4, org.springframework.security.web.header.HeaderWriterFilter@204b3895, org.springframework.security.web.authentication.logout.LogoutFilter@456a169, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6cbc4c5a, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@434eab61, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4f32ee59, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@64ebb2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@71d44928, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2d7043a3, org.springframework.security.web.access.ExceptionTranslationFilter@2d1a5ef4, org.springframework.security.web.access.intercept.AuthorizationFilter@64d516eb]
+6680 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer – LiveReload server is running on port 35729
+6711 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+6729 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+6739 [restartedMain] INFO  com.example.pw15.Pw15Application – Started Pw15Application in 6.217 seconds (process running for 7.406)
+56191 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Scheduled task
+56194 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – manufactures.txt is deleted
+56196 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – phones.txt is deleted
+56196 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Files deleted
+56207 [scheduling-1] INFO  c.e.p.services.ManufactureService – find all manufactures
+56384 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 175 ms
+56411 [scheduling-1] INFO  c.e.pw15.services.PhoneService – find all phones.txt
+56420 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 9 ms
+56425 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Sheduled Task is ended
+56425 [scheduling-1] INFO  com.example.pw15.Aspect – Method backup was proceeding in 234 ms
+116179 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Scheduled task
+116182 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – manufactures.txt is deleted
+116184 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – phones.txt is deleted
+116184 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Files deleted
+116191 [scheduling-1] INFO  c.e.p.services.ManufactureService – find all manufactures
+116199 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 8 ms
+116207 [scheduling-1] INFO  c.e.pw15.services.PhoneService – find all phones.txt
+116213 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 6 ms
+116216 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Sheduled Task is ended
+116217 [scheduling-1] INFO  com.example.pw15.Aspect – Method backup was proceeding in 38 ms
+176177 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Scheduled task
+176179 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – manufactures.txt is deleted
+176181 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – phones.txt is deleted
+176181 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Files deleted
+176188 [scheduling-1] INFO  c.e.p.services.ManufactureService – find all manufactures
+176195 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 7 ms
+176200 [scheduling-1] INFO  c.e.pw15.services.PhoneService – find all phones.txt
+176206 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 6 ms
+176210 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Sheduled Task is ended
+176210 [scheduling-1] INFO  com.example.pw15.Aspect – Method backup was proceeding in 33 ms
+236182 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Scheduled task
+236185 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – manufactures.txt is deleted
+236186 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – phones.txt is deleted
+236187 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Files deleted
+236193 [scheduling-1] INFO  c.e.p.services.ManufactureService – find all manufactures
+236200 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 7 ms
+236207 [scheduling-1] INFO  c.e.pw15.services.PhoneService – find all phones.txt
+236213 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 6 ms
+236217 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Sheduled Task is ended
+236217 [scheduling-1] INFO  com.example.pw15.Aspect – Method backup was proceeding in 35 ms
+296179 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Scheduled task
+296181 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – manufactures.txt is deleted
+296182 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – phones.txt is deleted
+296183 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Files deleted
+296188 [scheduling-1] INFO  c.e.p.services.ManufactureService – find all manufactures
+296195 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 7 ms
+296199 [scheduling-1] INFO  c.e.pw15.services.PhoneService – find all phones.txt
+296204 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 5 ms
+296207 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Sheduled Task is ended
+296207 [scheduling-1] INFO  com.example.pw15.Aspect – Method backup was proceeding in 28 ms
+356186 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Scheduled task
+356189 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – manufactures.txt is deleted
+356190 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – phones.txt is deleted
+356191 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Files deleted
+356196 [scheduling-1] INFO  c.e.p.services.ManufactureService – find all manufactures
+356203 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 7 ms
+356208 [scheduling-1] INFO  c.e.pw15.services.PhoneService – find all phones.txt
+356213 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 5 ms
+356217 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Sheduled Task is ended
+356217 [scheduling-1] INFO  com.example.pw15.Aspect – Method backup was proceeding in 31 ms
+399963 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+399967 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+399973 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+1018 [restartedMain] INFO  com.example.pw15.Pw15Application – Starting Pw15Application using Java 17.0.1 with PID 20608 (C:\Users\semey\IdeaProjects\PW23\build\classes\java\main started by semey in C:\Users\semey\IdeaProjects\PW23)
+1023 [restartedMain] INFO  com.example.pw15.Pw15Application – No active profile set, falling back to 1 default profile: "default"
+1090 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor – Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+1091 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor – For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+1795 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1863 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 56 ms. Found 3 JPA repository interfaces.
+2182 [restartedMain] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer – Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.springframework.session.config.annotation.web.http.SpringHttpSessionConfiguration
+3228 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+3242 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+3243 [restartedMain] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+3244 [restartedMain] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/10.1.5]
+3325 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+3325 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 2234 ms
+3425 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+3582 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5c56ce96
+3584 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+3748 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+3844 [restartedMain] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 6.1.7.Final
+4303 [restartedMain] INFO  SQL dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+5370 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+5379 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+6010 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+6319 [restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain – Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4daa933a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@d91ccd3, org.springframework.security.web.context.SecurityContextHolderFilter@67bea274, org.springframework.security.web.header.HeaderWriterFilter@782a3dc, org.springframework.security.web.authentication.logout.LogoutFilter@5a57189e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@41d03561, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@39492fba, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@13c44e68, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@a56eafd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@fa0411b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5463c7dd, org.springframework.security.web.access.ExceptionTranslationFilter@c09e1b8, org.springframework.security.web.access.intercept.AuthorizationFilter@5de7a211]
+6581 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer – LiveReload server is running on port 35729
+6612 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+6628 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+6638 [restartedMain] INFO  com.example.pw15.Pw15Application – Started Pw15Application in 6.061 seconds (process running for 7.296)
+29313 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Scheduled task
+29316 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – manufactures.txt is deleted
+29318 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – phones.txt is deleted
+29318 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Files deleted
+29329 [scheduling-1] INFO  c.e.p.services.ManufactureService – find all manufactures
+29469 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 137 ms
+29489 [scheduling-1] INFO  c.e.pw15.services.PhoneService – find all phones.txt
+29495 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 6 ms
+29497 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Sheduled Task is ended
+29498 [scheduling-1] INFO  com.example.pw15.Aspect – Method backup was proceeding in 185 ms
+89318 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Scheduled task
+89320 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – manufactures.txt is deleted
+89321 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – phones.txt is deleted
+89322 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Files deleted
+89333 [scheduling-1] INFO  c.e.p.services.ManufactureService – find all manufactures
+89345 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 12 ms
+89351 [scheduling-1] INFO  c.e.pw15.services.PhoneService – find all phones.txt
+89356 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 5 ms
+89360 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Sheduled Task is ended
+89360 [scheduling-1] INFO  com.example.pw15.Aspect – Method backup was proceeding in 42 ms
+149313 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Scheduled task
+149316 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – manufactures.txt is deleted
+149317 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – phones.txt is deleted
+149318 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Files deleted
+149325 [scheduling-1] INFO  c.e.p.services.ManufactureService – find all manufactures
+149333 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 9 ms
+149339 [scheduling-1] INFO  c.e.pw15.services.PhoneService – find all phones.txt
+149346 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 6 ms
+149349 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Sheduled Task is ended
+149350 [scheduling-1] INFO  com.example.pw15.Aspect – Method backup was proceeding in 37 ms
+209314 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Scheduled task
+209316 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – manufactures.txt is deleted
+209317 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – phones.txt is deleted
+209317 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Files deleted
+209327 [scheduling-1] INFO  c.e.p.services.ManufactureService – find all manufactures
+209336 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 9 ms
+209344 [scheduling-1] INFO  c.e.pw15.services.PhoneService – find all phones.txt
+209351 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 7 ms
+209356 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Sheduled Task is ended
+209357 [scheduling-1] INFO  com.example.pw15.Aspect – Method backup was proceeding in 43 ms
+269313 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Scheduled task
+269316 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – manufactures.txt is deleted
+269317 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – phones.txt is deleted
+269317 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Files deleted
+269327 [scheduling-1] INFO  c.e.p.services.ManufactureService – find all manufactures
+269337 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 10 ms
+269343 [scheduling-1] INFO  c.e.pw15.services.PhoneService – find all phones.txt
+269350 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 7 ms
+269354 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Sheduled Task is ended
+269354 [scheduling-1] INFO  com.example.pw15.Aspect – Method backup was proceeding in 41 ms
+329316 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Scheduled task
+329318 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – manufactures.txt is deleted
+329319 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – phones.txt is deleted
+329320 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Files deleted
+329325 [scheduling-1] INFO  c.e.p.services.ManufactureService – find all manufactures
+329330 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 5 ms
+329334 [scheduling-1] INFO  c.e.pw15.services.PhoneService – find all phones.txt
+329338 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 4 ms
+329340 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Sheduled Task is ended
+329340 [scheduling-1] INFO  com.example.pw15.Aspect – Method backup was proceeding in 24 ms
+389308 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Scheduled task
+389311 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – manufactures.txt is deleted
+389312 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – phones.txt is deleted
+389313 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Files deleted
+389319 [scheduling-1] INFO  c.e.p.services.ManufactureService – find all manufactures
+389325 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 6 ms
+389330 [scheduling-1] INFO  c.e.pw15.services.PhoneService – find all phones.txt
+389336 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 6 ms
+389339 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Sheduled Task is ended
+389340 [scheduling-1] INFO  com.example.pw15.Aspect – Method backup was proceeding in 32 ms
+449307 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Scheduled task
+449309 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – manufactures.txt is deleted
+449310 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – phones.txt is deleted
+449311 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Files deleted
+449317 [scheduling-1] INFO  c.e.p.services.ManufactureService – find all manufactures
+449324 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 6 ms
+449329 [scheduling-1] INFO  c.e.pw15.services.PhoneService – find all phones.txt
+449337 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 8 ms
+449340 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Sheduled Task is ended
+449341 [scheduling-1] INFO  com.example.pw15.Aspect – Method backup was proceeding in 35 ms
+461053 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+461053 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+461055 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 2 ms
+468716 [http-nio-8080-exec-2] INFO  com.example.pw15.Aspect – Method loadUserByUsername was proceeding in 87 ms
+468716 [http-nio-8080-exec-2] ERROR o.s.s.w.a.UsernamePasswordAuthenticationFilter – An internal error occurred while trying to authenticate the user.
+org.springframework.security.authentication.InternalAuthenticationServiceException: UserDetailsService returned null, which is an interface contract violation
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:96)
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:133)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:182)
+	at org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter.attemptAuthentication(UsernamePasswordAuthenticationFilter.java:85)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:231)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:221)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.session.web.http.SessionRepositoryFilter.doFilterInternal(SessionRepositoryFilter.java:143)
+	at org.springframework.session.web.http.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:82)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+473664 [http-nio-8080-exec-5] INFO  com.example.pw15.Aspect – Method loadUserByUsername was proceeding in 7 ms
+473906 [http-nio-8080-exec-6] INFO  c.e.pw15.services.PhoneService – find all phones.txt
+473913 [http-nio-8080-exec-6] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 7 ms
+509308 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Scheduled task
+509310 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – manufactures.txt is deleted
+509312 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – phones.txt is deleted
+509312 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Files deleted
+509318 [scheduling-1] INFO  c.e.p.services.ManufactureService – find all manufactures
+509326 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 8 ms
+509331 [scheduling-1] INFO  c.e.pw15.services.PhoneService – find all phones.txt
+509336 [scheduling-1] INFO  com.example.pw15.Aspect – Method findAll was proceeding in 5 ms
+509340 [scheduling-1] INFO  c.e.pw15.services.ScheduleService – Sheduled Task is ended
+509341 [scheduling-1] INFO  com.example.pw15.Aspect – Method backup was proceeding in 33 ms
+528459 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+528463 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+528472 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
