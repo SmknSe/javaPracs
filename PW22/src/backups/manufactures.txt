@@ -1,0 +1,3 @@
+Manufacture(id=1, name=123, address=null)
+Manufacture(id=2, name=123, address=qwe)
+Manufacture(id=3, name=123, address=111)
